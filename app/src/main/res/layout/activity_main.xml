@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:baselineAligned="false"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <Button
         android:layout_width="@dimen/btn_w"
-        android:layout_height="@dimen/btn_n"
+        android:layout_height="@dimen/btn_h"
         android:backgroundTint="@color/Lime"
         android:text="@string/btn1"
         android:textColor="@color/black"
@@ -22,7 +23,7 @@
 
     <Button
         android:layout_width="@dimen/btn_w"
-        android:layout_height="@dimen/btn_n"
+        android:layout_height="@dimen/btn_h"
         android:backgroundTint="@color/Lime"
         android:text="@string/btn2"
         android:textColor="@color/black"
@@ -35,7 +36,7 @@
 
     <Button
         android:layout_width="@dimen/btn_w"
-        android:layout_height="@dimen/btn_n"
+        android:layout_height="@dimen/btn_h"
         android:backgroundTint="@color/Lime"
         android:text="@string/btn3"
         android:textColor="@color/black"
